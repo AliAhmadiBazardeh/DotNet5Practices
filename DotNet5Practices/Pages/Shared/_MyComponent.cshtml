@@ -1,0 +1,10 @@
+﻿@model List<DotNet5Practices.Models.Users>
+<div>
+    This is my component
+    <lo>
+        @foreach (var user in Model)
+        {
+            <li>@user.Name</li>
+        }
+    </lo>
+</div>
